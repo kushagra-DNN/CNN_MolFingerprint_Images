@@ -11,7 +11,7 @@ Code for our paper: **Deep learning-based identification and biological evaluati
 ### Step 2: Generate folders
 Generate folders for training and test set in this format:
 ```
-Image_type1/
+Image_type1\
     train\ 
         active\
         inactive\
@@ -19,7 +19,7 @@ Image_type1/
         active\
         inactive\
   ...
-Image_type2/
+Image_type2\
     train\ 
         active\
         inactive\
