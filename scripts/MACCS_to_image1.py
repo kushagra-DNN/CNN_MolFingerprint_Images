@@ -6,6 +6,7 @@ import seaborn as sns
 import numpy as np
 import cv2
 from PIL import Image, ImageDraw, ImageFont, ImageColor
+import sys
 
 print("\n")
 print ('MACCS_to_image1.py -i <MACCSFilesPath_image1> -o <image1_path>\n')
