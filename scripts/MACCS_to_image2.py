@@ -5,7 +5,8 @@ from PIL import Image as im
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-
+from pylab import *
+import sys
 
 print ('MACCS_to_image2.py -i <MACCSFilesPath_image2> -o <image2_path>')
 print("\n")
