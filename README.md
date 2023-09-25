@@ -29,3 +29,21 @@ Image_data\
             active\
             inactive\
 ```
+
+### Step 3: Convert molecular canonical SMILES to MACCS fingerprints
+Run:<br>
+```
+python smiles_to_maccs.py --ifile [Input_smiles_file] --ofile [Output_maccs_file] 
+```
+
+### Step 4: Convert MACCS generated files to image type 1 
+Run:<br>
+```
+python MACCS_to_image1.py --ifile [MACCSFilesPath_image1] --ofile [image1_path] 
+```
+
+### Step 5: For image type 2 convert MACCS generated files to Matrix of 14*12.  
+Run:<br>
+```
+python MACCS_to_image2.py --ifile [MACCSFilesPath_image2] --ofile [image2_path] 
+```
