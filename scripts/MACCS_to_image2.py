@@ -11,19 +11,21 @@ print ('MACCS_to_image2.py -i <MACCSFilesPath_image2> -o <image2_path>')
 print("\n")
 
 print ("Use -i as:") 
-print(r"data\train\Train_active.csv")
-print(r"data\train\Train_inactive.csv")
-print(r"data\test\Test_active.csv")
-print(r"data\Maybridge\MACCS_maybridge.csv")
-print(r"data\test\Test_inactive.csv")
+
+print(r"Feature_data\Image_type2\Train\Matrix_actives")
+print(r"Feature_data\Image_type2\Train\Matrix_inactives")
+print(r"Feature_data\Image_type2\Test\Matrix_actives")
+print(r"Feature_data\Image_type2\test\Matrix_inactives")
+print(r"Feature_data\Image_type2\test\Maybridge\Matrix")
 
 print("\n")
 print("Use -o as:")
 
-print(r"data\train\active")
-print(r"data\train\inactive")
-print(r"data\test\active")
-print(r"data\test\inactive")
+print(r"Image_data\Image_type2\train\active")
+print(r"Image_data\Image_type2\train\inactive")
+print(r"Image_data\Image_type2\test\active")
+print(r"Image_data\Image_type2\test\inactive")
+
 print("\n")
 
 def main(argv):
@@ -47,7 +49,7 @@ def main(argv):
 
         sns.heatmap( k2, cmap = 'gray', cbar=False, yticklabels=False, xticklabels=False, linewidths=0.005, linecolor="green")
         plt.tight_layout(pad=0)
-        plt.savefig(image2_path + "May_" + str(i+1) + ".png")
+        plt.savefig(image2_path + "May_" + str(i+1) + ".png") 
         plt.clf()
 
 if __name__ == "__main__":
