@@ -1,6 +1,6 @@
 # CNN_MolFingerprint_Images
 
-Code for our paper: **Deep learning-based identification and biological evaluation of MAO-B inhibitors**
+Code for our paper: **Deep Convolutional Neural Network Based Identification and Biological evaluation of MAO-B inhibitors**
 
 ### Step 1: Installation
 - git clone https://github.com/kushagra-DNN/CNN_MolFingerprint_Images.git <br>
